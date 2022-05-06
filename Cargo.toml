@@ -10,6 +10,7 @@ authors=["Agustin Carnevale"]
 [dependencies]
 dotenv = "0.15.0"
 colour="0.6.0"
-newsapi={path = "./newsapi"}
+newsapi={path = "./newsapi", features=["async"]}
 termimad="0.14.2"
 crossterm="0.20.0"
+tokio={version= "1.11.0", features=["full"]}
